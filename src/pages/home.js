@@ -21,7 +21,6 @@ const Home = () => {
   const navigate = useNavigate();
   const save = (event) => {
     event.preventDefault();
-    console.log("save", event);
     let url = "/result/";
     const formData = new FormData(event.target);
     [...formData.entries()].forEach(([, value]) => {

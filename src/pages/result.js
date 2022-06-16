@@ -58,7 +58,6 @@ const Result = () => {
     })();
   }, [page, rowsPerPage]);
 
-  console.log("stored data", storedData);
   return (
     <Box>
       <h1>Result</h1>

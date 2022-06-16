@@ -12,9 +12,9 @@ export default function AlignItemsList(props) {
   return (
     <List sx={{ width: "100%", maxWidth: 450, bgcolor: "background.paper" }}>
       {items.map((item, index) => (
-        <>
+        <React.Fragment key={index}>
           {index > 0 && <Divider variant="inset" component="li" />}
-          <ListItem key={index} alignItems="flex-start">
+          <ListItem alignItems="flex-start">
             {item.avatar_url && (
               <ListItemAvatar>
                 <Avatar alt={item.login} src={item.avatar_url} />
@@ -38,7 +38,7 @@ export default function AlignItemsList(props) {
               }
             />
           </ListItem>
-        </>
+        </React.Fragment>
       ))}
     </List>
   );

@@ -18,7 +18,6 @@ export default function Pagination(props) {
       onPageChange={handleChangePage}
       rowsPerPage={rowsPerPage}
       onRowsPerPageChange={handleChangeRowsPerPage}
-      {...props}
     />
   );
 }
