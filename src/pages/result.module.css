@@ -1,0 +1,11 @@
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.listing {
+  overflow-y: auto;
+  height: 450px;
+  margin-top: 2rem;
+}

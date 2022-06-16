@@ -1,0 +1,11 @@
+.searching {
+    display: flex;
+}
+
+.buttons {
+    margin-left: 5rem !important;
+}
+
+.textField {
+    width: 60%
+}
